@@ -16,16 +16,13 @@ function Index() {
       <div className="flex-1 flex items-center justify-center px-6">
         <div className="w-full max-w-3xl aspect-video">
           <video
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
             autoPlay
             loop
             muted
             playsInline
           >
-            <source
-              src="https://cdn.coverr.co/videos/coverr-a-pink-flower-blooming-1573/1080p.mp4"
-              type="video/mp4"
-            />
+            <source src="/animazione-logo.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
