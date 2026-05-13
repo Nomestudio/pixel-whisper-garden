@@ -137,8 +137,16 @@
     border-color: var(--color-border);
   }
 
+  html,
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    overscroll-behavior: none;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    touch-action: none;
+    position: fixed;
+    inset: 0;
   }
 }
