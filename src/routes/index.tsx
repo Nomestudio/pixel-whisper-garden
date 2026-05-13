@@ -27,7 +27,10 @@ function Index() {
         </div>
       </div>
 
-      <footer className="pb-10 pt-6 flex justify-center">
+      <footer
+        className="absolute inset-x-0 bottom-0 flex justify-center pt-6"
+        style={{ paddingBottom: "calc(env(safe-area-inset-bottom, 0px) + 1.5rem)" }}
+      >
         <a
           href="mailto:info@nomestudio.eu"
           className="text-sm tracking-tight text-black/50 hover:text-black transition-colors"
