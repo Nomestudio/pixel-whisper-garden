@@ -13,7 +13,10 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <main className="h-screen w-screen overflow-hidden bg-white text-black flex flex-col fixed inset-0">
-      <div className="flex-1 flex items-center justify-center px-6">
+      <div
+        className="flex-1 flex items-center justify-center px-6"
+        style={{ paddingTop: "env(safe-area-inset-top, 0px)" }}
+      >
         <div className="w-full max-w-3xl aspect-video scale-[1.3] md:scale-100">
           <video
             className="w-full h-full object-contain"
