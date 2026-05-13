@@ -1,16 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
-
-export const Route = createFileRoute("/")({
-  component: Index,
-  head: () => ({
-    meta: [
-      { title: "Studio" },
-      { name: "description", content: "Studio." },
-    ],
-  }),
-});
-
-function Index() {
+export default function App() {
   return (
     <main className="h-screen w-screen overflow-hidden bg-white text-black flex flex-col fixed inset-0">
       <div
