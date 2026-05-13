@@ -14,7 +14,7 @@ function Index() {
   return (
     <main className="min-h-screen bg-white text-black flex flex-col">
       <div className="flex-1 flex items-center justify-center px-6">
-        <div className="w-full max-w-3xl aspect-video">
+        <div className="w-full max-w-3xl aspect-video scale-[1.3] md:scale-100">
           <video
             className="w-full h-full object-contain"
             autoPlay
