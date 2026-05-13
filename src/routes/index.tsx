@@ -30,7 +30,7 @@ function Index() {
       <footer className="pb-10 pt-6 flex justify-center">
         <a
           href="mailto:info@nomestudio.eu"
-          className="text-sm tracking-tight text-black hover:opacity-60 transition-opacity"
+          className="text-sm tracking-tight text-black/50 hover:text-black transition-colors"
         >
           info@nomestudio.eu
         </a>
